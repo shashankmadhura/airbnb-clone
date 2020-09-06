@@ -1,0 +1,56 @@
+.banner {
+  margin-top: 5px;
+  background: url("https://a0.muscache.com/4ea/air/v2/pictures/4712d4a2-b1c8-469a-98a5-75963d067fed.jpg?t=r:w1200-h720-sfit,e:fjpg-c90")
+    center center;
+  height: 50vh;
+  position: relative;
+  object-fit: contain;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 60px;
+}
+
+.banner__datepicker {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.banner__searchbutton {
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+  font-weight: 600 !important;
+}
+.banner__searchbutton:hover {
+  background-color: #ff7779 !important ;
+  color: white !important;
+}
+
+.banner__info {
+  background-color: black;
+  color: white;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 61px;
+  width: 300px;
+}
+
+.banner__info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.banner__info > h5 {
+  margin-top: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}

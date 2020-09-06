@@ -1,0 +1,74 @@
+.SearchCard {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.SearchCard:hover {
+  opacity: 0.8;
+}
+
+.SearchCard > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  min-width: 170px;
+  object-fit: fill;
+}
+
+.SearchCard__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.SearchCard__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.SearchCard__infoTop {
+  width: 40vw;
+  min-width: 300px;
+}
+
+.SearchCard__infoTop > h3 {
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.SearchCard__infoTop > p {
+  margin-top: 10px;
+  font-size: 13px;
+  color: gray;
+}
+
+.SearchCard__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.SearchCard__star {
+  color: red;
+}
+
+.SearchCard__stars {
+  display: flex;
+  align-items: center;
+}
+
+.SearchCard__price > p {
+  text-align: right;
+}
+
+.SearchCard__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
